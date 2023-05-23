@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ethno-Style</title>
+
+    <script src="./libs/gsap/gsap.min.js" defer></script>
+    <script src="./libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="./libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/app.js" defer></script>
+
+</head>
+<body>
+
+    <!-- <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">HTML&CSS</a>
+
+            <div class="navbar-wrap">
+                <ul class="navbar-menu">
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Порт</a></li>
+                    <li><a href="#">цены</a></li>
+                    <li><a href="#">Контакты</a></li>
+    
+                    <a href="#" class="callback">Обратный Звонок</a>
+                </ul>
+            </div>
+            
+        </div>
+    </nav> -->
+
+    <div class="wrapper">
+        <div class="content">
+            <header class="etno-section">
+                <img data-lag=".5" data-speed=".6" class="etno" src="./img/etno.jpg" alt="Alt" >
+                <div class="container">
+                    <nav class="navbar">
+                        <div class="container">
+                            <a href="./htmls/menuru.html" class="navbar-brand">Назад в Меню</a>
+                
+                            <div class="navbar-wrap">
+                                <ul class="navbar-menu">
+                                    <li><ap href="./htmls/portfolioru.html">Картинки</ap></li>
+                                    <li><a href="./htmls/indexkg.html" class="header-item__lang-kg" button id="en" class="translate"><img src="./img/1.jpg" alt="kgflag" width="30px" height="20px"></button></a></li>
+                                    <!-- <li><a href="#" class="header-item__lang-ru" button id="ru" class="translate"><img src="./img/2.png" alt="ruflag" width="30px" height="20px"></button></a></li> -->
+                                    <li><a href="./htmls/indexen.html" class="header-item__lang-en" button id="ru" class="translate"><img src="./img/1.webp" alt="ruflag" width="30px" height="20px"></button></a></li>
+
+                                    <a href="./htmls/cantactru.html" class="callback">Контакты</a>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </nav>
+                    <div data-speed=".75" class="main-header">
+                        <h1 class="main-title">Этно-Стиль в интерьере</h1>
+                    </div>
+                </div>
+            </header>
+        
+            <div class="portfolio">
+                <div class="container">
+                    <main class="gallery">
+                        <div data-speed=".9" class="gallery__left">
+        
+                            <img class="gallery__item" src="./img/work/etno1.jpg" alt="Alt ">
+                            <div class="text-block gallery__item">
+                                <h2 class="text-block__h">Этно-Стиль</h2>
+                                <p class="text-block__p">В этно интерьере максимально аутентично передаются черты древности, когда люди еще не знали о современных материалах. 
+                                    Поэтому предпочтение нужно отдать натуральному дереву и текстилю, камню, металлу. 
+                                    В таком интерьерном стиле отделка выступает лишь фоном для основных декораций – мебели, аксессуаров</p>
+                            </div>
+                            <img class="gallery__item" src="./img/work/etno2.jpg" alt="Alt ">
+        
+                            <div class="text-block gallery__item">
+                                <h2 class="text-block__h">Декор</h2>
+                                <p class="text-block__p">Но настроение всего интерьера задает, конечно же, декор в этническом стиле. 
+                                    Арабский ковер, шкуру, африканские маски, японские вазы, китайские шкатулки, картины, 
+                                    тканые полотна – эти и другие аксессуары как нельзя лучше передают дух и колорит народа.</p>
+                            </div>
+                            
+                            <img class="gallery__item" src="./img/work/etno6.jpg" alt="Alt ">
+                            <div class="text-block gallery__item">
+                                <h2 class="text-block__h">Как это началось</h2>
+                                <p class="text-block__p">Переносить колорит другого народа в свои дома первыми начали мореплаватели и путешественники. 
+                                    Они привозили из дальних поездок памятные предметы и сувениры, которые становились частью оформления жилища.</p>
+                            </div>
+        
+                        </div>
+                        <div data-speed="1.1" class="gallery__right">
+        
+                            <div class="text-block gallery__item">
+                                <h2 class="text-block__h">Требования</h2>
+                                <p class="text-block__p">Строгих требований по оформлению этники нет, 
+                                    главное — это выбор в пользу натуральных материалов и 
+                                    соблюдение гармонии между крупным и мелким декором — 
+                                    только так вы сможете создать атмосферное помещение для отдыха или работы.</p>
+                            </div>
+        
+                            <img class="gallery__item" src="./img/work/etno4.jpg" alt="Alt ">
+                            <div class="text-block gallery__item">
+                                <h2 class="text-block__h">Мебель</h2>
+                                <p class="text-block__p">Один из наиболее характерных элементов этно-стиля – мебель. 
+                                    Большинство изделий должны быть выполнены из дерева (бамбук, дуб, бук, орех, ольха, сосна, кедр). 
+                                    Мягкая мебель может иметь металлический каркас и обивку из грубых натуральных тканей. 
+                                    Мебель обладает определенным стилем, характером и выразительностью. 
+                                    Например, плетеная мебель имеет принадлежность к Востоку и Африке. 
+                                    Это кресла, стулья, пуфики, кофейные и журнальные столики.</p>
+                            </div>
+                            <img class="gallery__item" src="./img/work/etno5.jpg" alt="Alt ">
+                            <div class="text-block gallery__item">
+                                <h2 class="text-block__h">В Этно-Стиле</h2>
+                                <p class="text-block__p">Цветовая гамма уникальна для каждого из направлений в этно-стиле. 
+                                    Например, китайский интерьер традиционно оформляют в красном и золотом цвете, 
+                                    в египетском можно наблюдать доминирование теплых оттенков — песочный, желтый, коричневый, 
+                                    а в скандинавском — более холодные сдержанные цвета.</p>
+                            </div>
+                            <img class="gallery__item" src="./img/work/etno3.jpg" alt="Alt ">
+        
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
